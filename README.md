@@ -1,2 +1,4 @@
 # GruppeMitSmart
-Übungsgruppe von Hai-yen casper und stefen
+
+
+## Fancy markdown file lol
