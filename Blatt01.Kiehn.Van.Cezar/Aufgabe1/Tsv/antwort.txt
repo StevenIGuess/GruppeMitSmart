@@ -1,0 +1,3 @@
+Durch Head -n 1 wird nur die erste Zeile betrachtet, in welcher die Zeilen beschriftet sind.
+Dann werden durch tr Tabulatoren durchZeilenumbrüche ersetzt, um letztlich die Zeilen mit nl
+nummerieren zu können.
