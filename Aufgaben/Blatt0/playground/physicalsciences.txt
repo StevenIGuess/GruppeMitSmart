@@ -1,0 +1,6 @@
+Chemie
+Informatik
+Physik
+Mathematik
+Astronomie
+Metereologie
