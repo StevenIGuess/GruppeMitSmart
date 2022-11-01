@@ -1,0 +1,5 @@
+1800 ist kein Schaltjahr
+1900 ist kein Schaltjahr
+2000 ist ein Schaltjahr
+2004 ist ein Schaltjahr
+2017 ist kein Schaltjahr
