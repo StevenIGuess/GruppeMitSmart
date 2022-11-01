@@ -14,6 +14,6 @@
 
 ![Stefan's GitHub stats](https://github-readme-stats.vercel.app/api?username=StevenIGuess&show_icons=true&theme=gruvbox)
 
-![Casper's GitHub stats](https://github-readme-stats.vercel.app/api?username=clk1006&show_icons=true&theme=gruvbox)
+![Caspar's GitHub stats](https://github-readme-stats.vercel.app/api?username=clk1006&show_icons=true&theme=gruvbox)
 
 ![Hai-Yen's GitHub stats](https://github-readme-stats.vercel.app/api?username=hxxyxn&show_icons=true&theme=gruvbox)
