@@ -1,7 +1,19 @@
 # GruppeMitSmart
+> Github für die bearbeitung von Aufgaben
 
+### Directory layout
 
-## Datei "Ordnungen"
-Alle Aufgaben sind in /Aufgaben/BlattNN.Kiehn.Van.Cezar
-Die tar Datein sind in /Aufgaben_tar
+    .
+    ├── Aufgaben                  # Bearbeitete Aufgaben 
+    ├── Aufgaben_tar              # Komprimierte Aufgaben ordner
+    ├── Notes                     # Notizen
+    └── README.md
+    
 
+### Stats
+
+![Stefan's GitHub stats](https://github-readme-stats.vercel.app/api?username=StevenIGuess&show_icons=true&theme=gruvbox)
+
+![Casper's GitHub stats](https://github-readme-stats.vercel.app/api?username=clk1006&show_icons=true&theme=gruvbox)
+
+![Hai-Yen's GitHub stats](https://github-readme-stats.vercel.app/api?username=hxxyxn&show_icons=true&theme=gruvbox)
