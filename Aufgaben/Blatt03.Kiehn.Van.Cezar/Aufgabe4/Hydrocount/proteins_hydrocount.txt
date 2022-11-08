@@ -1,0 +1,8 @@
+# hydrophobic	hydrophilic
+27	33
+21	39
+23	37
+22	38
+18	42
+22	38
+22	38

@@ -1,0 +1,21 @@
+# Zuerst tragen Sie bitte f"ur den Platzhalter
+# h unten die Anzahl der Stunden, die sie f"ur die
+# Aufgabe aufgewendet haben, ein. Das k"onnen auch Flie"spunkt-Werte sein,
+# also z.B. 1.5, wenn Sie 1 Stunde und 30 Minuten ben"otigt haben.
+
+Bearbeitungszeit: h Stunden
+
+# Als n"achstes tragen Sie bitte ein, wie schwierig
+# Sie die Aufgabe fanden. Die m"oglichen Werte sind vorgegeben. Bitte
+# die Werte streichen, die nicht zutreffen:
+
+Schwierigkeitsgrad: leicht, mittelschwer, genau richtig, schwer, sehr schwer
+
+# Schliesslich tragen Sie bitte ein, wie verst"andlich die
+# Aufgabenstellung formuliert war. Die m"oglichen Werte sind vorgegeben.
+# Bitte die Werte streichen, die nicht zutreffen.
+
+Aufgabenstellung: vollkommen klar, weitgehend klar, weniger klar, unklar
+
+# Falls eine der beiden letzten Kategorien zutrifft, bitte
+# kurz angeben, worin die Unklarheiten bestehen.
