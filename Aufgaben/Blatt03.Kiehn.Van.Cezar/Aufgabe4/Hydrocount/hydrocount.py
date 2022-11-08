@@ -6,33 +6,25 @@ if len(sys.argv) != 2:
     sys.stderr.write("Usage: {} <inputfile>\n".format(sys.argv[0]))
     exit(1)
 
-
 filename = sys.argv[1]
 
 try:
-    stream = open(filename, 'r')
+    with open(filename, 'r') as stream:
+        hydrophobic_chars = ['A', 'F', 'I', 'L', 'M', 'P', 'V', 'W']
+        hydrophilic_chars = ['C', 'D', 'E', 'G', 'H', 'K', 'N', 'Q', 'R', 'S', 'T', 'Y']
+
+        print("# hydrophobic\thydrophilic")
+
+        for line in stream:
+            [hydrophobic, hydrophilic] = [0, 0]
+
+            for c in line:
+                if c in hydrophobic_chars:
+                    hydrophobic+=1
+                elif c in hydrophilic_chars:
+                    hydrophilic+=1
+
+            print("{}\t{}".format(hydrophobic, hydrophilic))
 except:
     sys.stderr.write("Could not open file '{}' \n".format(sys.argv[1]))
     exit(1)
-
-
-hydrophobic_chars = ['A', 'F', 'I', 'L', 'M', 'P', 'V', 'W']
-hydrophilic_chars = ['C', 'D', 'E', 'G', 'H', 'K', 'N', 'Q', 'R', 'S', 'T', 'Y']
-
-print("# hydrophobic\thydrophilic")
-
-for line in stream:
-    hydrophobic = 0
-    hydrophilic = 0
-
-    for i in range(len(hydrophobic_chars)):
-        hydrophobic += line.count(hydrophobic_chars[i])
-
-    for i in range(len(hydrophilic_chars)):
-        hydrophilic += line.count(hydrophilic_chars[i])
-
-    print("{}\t{}".format(hydrophobic, hydrophilic))
-    
-    
-
-stream.close()
