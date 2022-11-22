@@ -1,0 +1,46 @@
+In dieser Datei formulieren Sie Ihre Antworten auf die Fragen
+in der Python-Datei, die hier kopiert wurden:
+
+'''FRAGE 1 (0.5 Punkte): Warum ist es sinnvoll, den folgenden String zu
+definieren und wozu dient dabei das Zeichen |? Hinweis: verwenden Sie diesen
+String in zwei der vier regul"aren Ausdr"ucke.
+ANTWORT: Dadurch wird überprüft, ob ein Monat vorliegt. Das "|" dient dazu,
+         mehrere Möglichkeiten darzustellen, die gematcht werden.
+'''
+
+'''FRAGE 2 (1 Punkt): Wozu dient die folgende Variable
+res_for_date_matches und was bedeutet der Ausdruck,
+mit dem sie intialisiert wird?
+ANTWORT: In der Variable wird die Anzahl der jeweiligen Matches gespeichert.
+         Durch den Ausdruck wird eine Liste generiert, deren Länge mit der 
+         Anzahl an möglichen Ausdrücken übereinstimmt, wobei die Zähler jeweils
+         mit 0 initialisiert werden.
+'''
+
+'''FRAGE 3 (0.5 Punkte) Wozu dient die Variable found?
+ANTWORT: In ihr wird als Wahrheitswert dargestellt, ob die Zeile mit einem der
+         Ausdrücke übereinstimmt. So können fehlerhafte Zeilen gefunden werden.
+'''
+
+'''FRAGE 4 (1 Punkt): Wieviele Gruppen m"ussen in jedem der regul"aren
+Ausdr"ucken definiert sein, damit das folgende Programmst"uck funktioniert und
+welche Bedingungen muss der String erf"ullen, der durch die letzte Gruppe
+gematcht wird? Begr"unden Sie Ihre Antwort.
+ANTWORT: Es müssen mindestens zwei Gruppen definiert werden, da die zweite 
+         Gruppe abgerufen wird. Dabei muss der String in der zweiten Gruppe
+         die Jahreszahl darstellen, damit die Umwandlung in eine Ganzzahl zu 
+         keinem Fehler führt.
+'''
+
+'''FRAGE 5 (0.5 Puntkte): Wozu dient die Variable idx in der inneren
+for-Schleife?
+ANTWORT: Dadurch wird gespeichert, welcher reguläre Ausdruck in der aktuellen
+         Zeile gematcht wird, bzw. welcher reguläre Audruck aktuell verarbei-
+         tet wird.
+'''
+
+'''FRAGE 6 (0.5 Punkte): Wozu dient die Variable no_match_lines?
+ANTWORT: In dieser Liste werden alle Zeilen gespeichert, welche mit keinem der
+         regulären Ausdrücke übereinstimmten.
+'''
+
