@@ -1,0 +1,100 @@
+Score = 120 bits (300), Expect = 2e-38
+Identities=57/57 (100%)
+Score = 102 bits (255), Expect = 2e-31
+Identities = 48/49 (98%)
+Score =86 bits (210), Expect = 2e-24
+Identities = 42/52 (81%)
+Score = 1018 bits (2631), Expect= 0.0
+Identities = 597/668 (89%)
+Score = 829 bits (2141), Expect =0.0
+Identities = 454/670 (68%)
+Score = 824 bits (2129), Expect = 0.0
+Identities =454/672 (68%)
+Score = 812 bits (2098), Expect = 0.0
+Identities = 468/673 (70%)
+Score = 810 bits (2093), Expect = 0.0
+Identities = 452/670 (67%)
+Score = 197 bits (500), Expect = 3e-53
+Identities = 119/284 (42%)
+Score = 194 bits (492), Expect = 3e-52
+Identities = 129/356 (36%)
+Score = 177 bits (449), Expect =1e-46
+Identities = 126/376 (34%)
+Score = 147 bits (370), Expect = 9e-37
+Identities = 120/402 (30%)
+Score = 141 bits (355), Expect = 7e-35
+Identities =108/340 (32%)
+Score = 133 bits (335), Expect = 2e-32
+Identities = 117/369 (32%)
+Score = 132 bits (332), Expect = 5e-32
+Identities =108/341 (32%)
+Score = 46 bits (107), Expect = 6e-05
+Identities = 26/62 (42%)
+Score = 191 bits (484), Expect = 3e-51
+Identities =115/270 (43%)
+Score = 186 bits (471), Expect = 1e-49
+Identities = 126/319 (39%)
+Score = 151 bits (381), Expect =3e-38
+Identities = 125/337 (37%)
+Score = 141 bits (355), Expect = 7e-35
+Identities =116/348 (33%)
+Score = 132 bits (332), Expect = 4e-32
+Identities = 98/274 (36%)
+Score = 129 bits (324), Expect =4e-31
+Identities = 97/265 (37%)
+Score = 125 bits (315), Expect = 6e-30
+Identities =115/355 (32%)
+Score = 92 bits (226), Expect = 4e-19
+Identities = 102/346 (29%)
+Score =47 bits (109), Expect = 3e-05
+Identities =32/86 (37%)
+Score = 190 bits (482), Expect = 3e-51
+Identities =113/309 (37%)
+Score = 150 bits (379), Expect = 5e-38
+Identities =112/334 (34%)
+Score = 144 bits (363), Expect = 6e-36
+Identities =109/324 (34%)
+Score = 129 bits (323), Expect = 4e-31
+Identities =114/342 (33%)
+Score = 102 bits (253), Expect = 2e-22
+Identities =102/333 (31%)
+Score = 189 bits (481), Expect = 8e-51
+Identities = 128/364 (35%)
+Score = 187 bits (475), Expect = 4e-50
+Identities = 130/362 (36%)
+Score = 177 bits (450), Expect = 7e-47
+Identities = 129/382 (34%)
+Score = 140 bits (352), Expect = 1e-34
+Identities = 107/329 (33%)
+Score = 139 bits (349), Expect =4e-34
+Identities = 103/328 (31%)
+Score = 133 bits (335), Expect =2e-32
+Identities = 106/343 (31%)
+Score = 132 bits (332), Expect = 5e-32
+Identities = 106/349 (30%)
+Score = 130 bits (328), Expect = 1e-31
+Identities =91/285 (32%)
+Score = 187 bits (475), Expect = 2e-50
+Identities = 119/298 (40%)
+Score = 130 bits (326), Expect = 2e-31
+Identities = 113/336 (34%)
+Score = 127 bits (318), Expect = 2e-30
+Identities = 108/341 (32%)
+Score = 121 bits (303), Expect =1e-28
+Identities = 104/323 (32%)
+Score = 115 bits (288), Expect = 8e-27
+Identities = 102/328 (31%)
+Score = 108 bits (271), Expect = 1e-24
+Identities = 57/108 (53%)
+Score = 96 bits (237), Expect = 1e-20
+Identities = 100/350 (29%)
+Score = 181 bits (459), Expect = 3e-48
+Identities =128/298 (43%)
+Score = 144 bits (362), Expect = 7e-36
+Identities = 119/332 (36%)
+Score = 132 bits (332), Expect =4e-32
+Identities = 113/340 (33%)
+Score = 130 bits (327), Expect = 2e-31
+Identities = 112/332 (34%)
+Score =111 bits (277), Expect = 2e-25
+Identities = 97/298 (33%)

@@ -1,0 +1,26 @@
+Scre = 120 bits (300), Expect = 2e-38
+Idenities=57/57 (100%)
+Score = 102 bts (255), Expect = 2e-31
+Identities = 48 49 (98%)
+Score =85.5 bis (210), Expect = 2e-24
+Identitis = 42/52 (81%)
+Score = 1018 bis (2631), Expect= 0.0
+Identities = 597/668 89%)
+Score = 829 bits (2141, Expect =0.0
+Idetities = 454/670 (68%)
+Score = 824 bits (2129) Expect = 0.0
+Identities =454/672 (68%
+Score = 812 bits (2098 Expect = 0.0
+Identities  468/673 (70%)
+Score 810 bits (2093), Expect = 0.0
+Identities = /670 (67%)
+810 bits (2.93), Expect = 0.0
+Identities\t/670 (67)
+810 nits (2.93), Expect = -30.0
+Identity = (670) (67)
+Score = 121 bits (303) Expect =1e-28
+Score = 144 bits (362), Expect = 7f-36
+identities = 112/332 (34%)
+Score = 115 nits (288), Expect = 8e-a
+Score : 115 bits (288), Expect = 8e-1
+Identities = 112^332 (34%)
