@@ -1,0 +1,1 @@
+Python ist eine universelle, üblicherweise interpretierte höhere Programmiersprache. Sie hat den Anspruch, einen gut lesbaren, knappen Programmierstil zu fördern. So werden beispielsweise Blöcke nicht durch geschweifte Klammern, sondern durch Einrückungen strukturiert. Wegen ihrer klaren und übersichtlichen Syntax gilt Python als einfach zu erlernen.

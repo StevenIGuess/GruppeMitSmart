@@ -1,0 +1,12 @@
+there are 46 prime numbers <= 200
+the largest 10 prime numbers <= 200 are:
+157
+163
+167
+173
+179
+181
+191
+193
+197
+199

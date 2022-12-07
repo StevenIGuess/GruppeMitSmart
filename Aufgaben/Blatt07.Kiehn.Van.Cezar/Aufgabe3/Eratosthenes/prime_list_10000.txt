@@ -1,0 +1,12 @@
+there are 1229 prime numbers <= 10000
+the largest 10 prime numbers <= 10000 are:
+9887
+9901
+9907
+9923
+9929
+9931
+9941
+9949
+9967
+9973

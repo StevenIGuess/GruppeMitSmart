@@ -1,0 +1,12 @@
+there are 168 prime numbers <= 1000
+the largest 10 prime numbers <= 1000 are:
+937
+941
+947
+953
+967
+971
+977
+983
+991
+997

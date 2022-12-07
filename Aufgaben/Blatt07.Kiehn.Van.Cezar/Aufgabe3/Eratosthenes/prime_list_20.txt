@@ -1,0 +1,10 @@
+there are 8 prime numbers <= 20
+the largest 8 prime numbers <= 20 are:
+2
+3
+5
+7
+11
+13
+17
+19
