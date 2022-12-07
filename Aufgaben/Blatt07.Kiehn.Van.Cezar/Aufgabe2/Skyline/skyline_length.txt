@@ -2,3 +2,5 @@ Hier bitte den Ausdruck angeben,
 durch den die L"ange des
 i-ten Skyline Strings bestimmt
 werden kann.
+
+2^i-1
