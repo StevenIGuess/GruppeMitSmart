@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import math, sys
-
 def usage_exit(exit_code):
   sys.stderr.write('Usage: {} <integer >= 3>\n'
                     .format(sys.argv[0]))
@@ -21,9 +20,24 @@ i, 2<=i<=n, such that marked[i] is False. This is the list of
 prime numbers, which is returned by the function.
 '''
 
+def smallest_unmarked(list):
+  for i,v in enumerate(list):
+    if v==False:
+      return i
+  return len(list)
 def prime_list_by_eratosthenes(n):
   marked = [None,None] + ([False] * (n-1))
- # add your code hear
+  prime_list=[]
+  unmarked=smallest_unmarked(marked)
+  while unmarked<math.sqrt(n):
+    prime_list.append(unmarked)
+    for i in range(0,n//unmarked):
+      marked[unmarked*(i+1)]=True
+    unmarked=smallest_unmarked(marked)
+  for i,v in enumerate(marked):
+    if v==False:
+      prime_list.append(i)
+  return prime_list
 
 try:
   n = int(sys.argv[1])

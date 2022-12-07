@@ -1,4 +1,4 @@
-#!/bin/env python3
+#!/usr/bin/env python3
 import sys
 def skyline(i):
     skylineString=""
@@ -12,11 +12,13 @@ def parse_command_line(values):
     try:
         values=list(map(lambda x: int(x),values))
     except ValueError as err:
-        sys.stderr.write("Es müssen ganze Zahlen als Argumente angegeben werden.\n")
+        sys.stderr.write("Es müssen ganze Zahlen als Argumente angegeben"+
+                         "werden.\n")
         sys.exit(1)
     fitting=list(map(lambda x: (x in list(range(27))),values))
     if False in fitting:
-        sys.stderr.write("Es müssen positive ganze Zahlen kleiner oder gleich 26 als Argumente angegeben werden\n")
+        sys.stderr.write("Es müssen positive ganze Zahlen kleiner oder"+
+                         "gleich 26 als Argumente angegeben werden\n")
         sys.exit(1)
     if len(values)==1:
         return (values[0],values[0])
