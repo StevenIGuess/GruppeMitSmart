@@ -3,7 +3,7 @@
 # Aufgabe aufgewendet haben, ein. Das k"onnen auch Flie"spunkt-Werte sein,
 # also z.B. 1.5, wenn Sie 1 Stunde und 30 Minuten ben"otigt haben.
 
-Bearbeitungszeit: 0.75 Stunden
+Bearbeitungszeit: 0.6 Stunden
 
 # Als n"achstes tragen Sie bitte ein, wie schwierig
 # Sie die Aufgabe fanden. Die m"oglichen Werte sind vorgegeben. Bitte
