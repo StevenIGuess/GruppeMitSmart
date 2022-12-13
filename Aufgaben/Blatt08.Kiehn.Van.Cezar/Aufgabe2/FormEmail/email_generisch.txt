@@ -1,0 +1,12 @@
+To: _EMAILADDRESSE_
+From: labormedizin@hamburg.de
+
+Sehr _ANSPRACHE_ _NAME_,
+
+Sie hatten uns Proben _PATIENT_ geschickt.
+Die Untersuchungsergebnisse liegen nun vor.
+Die _MESSUNG_ ist mit _WERT_ _BEFUND_.
+
+Mit freundlichen Grüßen,
+
+Ihr Labormediziner

@@ -3,19 +3,32 @@
 # Aufgabe aufgewendet haben, ein. Das k"onnen auch Flie"spunkt-Werte sein,
 # also z.B. 1.5, wenn Sie 1 Stunde und 30 Minuten ben"otigt haben.
 
-Bearbeitungszeit: h Stunden
+Bearbeitungszeit: 0.3 Stunden
 
 # Als n"achstes tragen Sie bitte ein, wie schwierig
 # Sie die Aufgabe fanden. Die m"oglichen Werte sind vorgegeben. Bitte
 # die Werte streichen, die nicht zutreffen:
 
-Schwierigkeitsgrad: leicht, mittelschwer, genau richtig, schwer, sehr schwer
+Schwierigkeitsgrad: leicht
 
 # Schliesslich tragen Sie bitte ein, wie verst"andlich die
 # Aufgabenstellung formuliert war. Die m"oglichen Werte sind vorgegeben.
 # Bitte die Werte streichen, die nicht zutreffen.
 
-Aufgabenstellung: vollkommen klar, weitgehend klar, weniger klar, unklar
+Aufgabenstellung: vollkommen klar
 
 # Falls eine der beiden letzten Kategorien zutrifft, bitte
 # kurz angeben, worin die Unklarheiten bestehen.
+
+
+--------------------------Dokumentation des Vorgehens---------------------------
+
+Zuallererst haben wir uns am Anfang der Übung jeweils selbstständig mit den In-
+halten der Folien beschäftigt und versucht, die vorgestellten Methoden, sowie 
+deren Implementierung nachzuvollziehen und die Unterschiede zu verstehen. Im An-
+schluss haben wir miteinander über die Inhalte gesprochen, um so Unklarheiten zu
+beseitigen und dann versucht, die Kenntnisse im Rahmen einer eigenen Implementa-
+tion des Verfahrens anzuwenden. Dies ist uns unter gelegentlichem Rückgriff auf
+die bereitgestellten Materialen auch gelungen, weswegen wir nun sicher und ver-
+traut mit den vorgestellten Methoden umgehen können. Unklarheiten bestehen bei 
+uns keine mehr, generell würden wir die Lehrform als effektiv beurteilen.
