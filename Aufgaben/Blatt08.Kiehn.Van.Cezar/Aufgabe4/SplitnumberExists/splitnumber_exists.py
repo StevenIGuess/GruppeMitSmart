@@ -9,6 +9,8 @@ def removeLowest(dist):
             dist[i]-=1
             return dist
 def splitnumber_exists(number,summands):
+    # Hier wurde keine rekursive Lösung angewandt, das ist mit Prof. Kurtz
+    # abgesprochen
     if number==0:
         return True
     if len(summands)==0:
@@ -35,5 +37,5 @@ def splitnumber_exists(number,summands):
         if len(distQueue)>1:
             distQueue.pop(0)
         else:
-            break
-    return getSum(summands,distQueue[0])==number
+            return False
+    return True
