@@ -1,3 +1,14 @@
 Beschreiben Sie hier in wenigen S"atzen, woraus diese Unit-Tests in
 pwgen_functions_unit_test.py
 bestehen. 
+
+In dem Programm pwgen_functions_unit_test wird die Korrektheit der implemtier-
+ten Funktionen durch vereinheitlichte Tests sichergestelt. Dafür wird das unit-
+test-Modul von Python verwendet und eine Klasse deklariert, in der jede Funktion
+einen einzelnen Test darstellt. Jeweils wird die erwartete Ausgabe der zu über-
+prüfenden Funktion festgelegt und es wird mit assertEqual sichergestellt, dass
+die tatsächliche Ausgabe damit übereinstimmt. Bei stucture_string_is_valid kann
+assertTrue bzw. assertFalse benutzt werden, was kürzer als ein direkter Ver-
+gleich mit dem jeweiligen Wahrheitswert ist. Sollten die assert-Tests nicht zu-
+treffen, wird das von der unittest.main()-Funktion erkannt, welche am Ende auf-
+gerufen wird und der Unittest wird failen.
