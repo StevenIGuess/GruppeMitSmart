@@ -1,0 +1,3 @@
+x_vector/y_vector: 0.96626
+x_vector/z_vector: 0.69967
+y_vector/z_vector: 0.55947

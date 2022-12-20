@@ -1,0 +1,6 @@
+Frage: Warum ist es notwendig, dass man
+in der rekursiven Funktion einen Parameter
+terms_of_sum_remain verwendet, in dem nicht immer alle
+Elemente aus \(S\) stehen.
+
+Antwort: 

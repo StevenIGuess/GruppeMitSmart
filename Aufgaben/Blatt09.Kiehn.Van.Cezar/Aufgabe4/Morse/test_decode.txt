@@ -1,0 +1,9 @@
+Aufgabe:
+In den Materialien finden Sie 2 Dateien unknown_short.code2_0
+und unknown.code2_0} mit Morsestrings (Version 2.0) f"ur zwei
+unbekannte Texte. Die Originaltexte sind nicht in den Testdaten vorhanden.
+Trotzdem kann durch den Aufruf von make test_decode getestet werden, ob Ihre
+Implementierung der Methode decode korrekt funktioniert.
+Beschreiben Sie, warum das m"oglich ist.
+
+Antwort:

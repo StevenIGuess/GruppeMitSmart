@@ -1,0 +1,7 @@
+Aufgabe:
+Auch wenn man den Morse-Code kennt, kann man den durch die Funktion
+encode gelieferten Morse-String nicht immer eindeutig dekodieren.
+Geben Sie hierf"ur anhand eines Beispiels eine Erkl"arung, an dem
+Sie das Problem verdeutlichen. 
+
+L"osung:
