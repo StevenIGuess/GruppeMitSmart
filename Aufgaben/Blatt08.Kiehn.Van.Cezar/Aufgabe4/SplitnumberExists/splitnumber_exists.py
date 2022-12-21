@@ -16,12 +16,19 @@ def splitnumber_exists(number,summands):
     if len(summands)==0:
         return False
     distQueue=[[]]
+    dists=[]
     for i,v in enumerate(summands):
         if i==0:
             distQueue[0].append(number//v)
         else:
             distQueue[0].append(0)
-    while getSum(summands,distQueue[0])!=number:
+    while len(distQueue)>=1:
+        if getSum(summands,distQueue[0])==number:
+            dist=[]
+            for i,v in enumerate(distQueue[0]):
+                for _ in range(v):
+                    dist.append(summands[i])
+            dists.append(dist)
         for i,v in enumerate(distQueue[0][:-1]):
             if v==0:
                 continue
@@ -30,12 +37,7 @@ def splitnumber_exists(number,summands):
             distNew[i+1]+=1
             while getSum(summands,distNew)>number:
                 distNew=removeLowest(distNew)
-            if getSum(summands,distNew)==0:
-                continue
             if distNew not in distQueue:
                 distQueue.append(distNew)
-        if len(distQueue)>1:
-            distQueue.pop(0)
-        else:
-            return False
-    return True
+        distQueue.pop(0)
+    return len(dists)>0
