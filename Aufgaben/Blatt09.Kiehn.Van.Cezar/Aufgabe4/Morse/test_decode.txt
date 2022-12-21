@@ -7,3 +7,6 @@ Implementierung der Methode decode korrekt funktioniert.
 Beschreiben Sie, warum das m"oglich ist.
 
 Antwort:
+Nachdem sichergestellt wurde, dass die Methode encode korrekt funktioniert,
+kann mit dieser der generierte Originaltext wieder enkodiert werden, um die
+Übereinstimmung mit dem Morsestring zu überprüfen.

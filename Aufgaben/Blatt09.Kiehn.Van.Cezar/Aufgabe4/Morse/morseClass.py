@@ -89,15 +89,20 @@ class Morse:
     ' ' : '.-.'
   }
   def __init__(self,use2_0 = False):
-    self._use2_0 = use2_0
-    self._morse_code_map = Morse.morse_code2_0 if use2_0 else Morse.morse_code
+      self._use2_0 = use2_0
+      self._morse_code_map = Morse.morse_code2_0 if use2_0 else Morse.morse_code
 
-  def encode(self,text):
-    # to be implemented using self._morse_code_map
-    return
+  def encode(self,text:str):
+    return ''.join([self._morse_code_map[char] for char in text.upper()])
   def decode(self,morse_string):
-    # to be implemented using self._morse_code_map
-    return
+    text_res=""
+    chars_curr=""
+    for char in morse_string:
+      chars_curr+=char
+      if chars_curr in self._morse_code_map.values():
+        text_res+=list(filter(lambda x:self._morse_code_map[x]==chars_curr,self._morse_code_map.keys()))[0]
+        chars_curr=""
+    return text_res
 
 # wave files are from
 # https://drive.google.com/drive/folders/0B9hr-DdPL7utdkFLYXVXN25nZXc
