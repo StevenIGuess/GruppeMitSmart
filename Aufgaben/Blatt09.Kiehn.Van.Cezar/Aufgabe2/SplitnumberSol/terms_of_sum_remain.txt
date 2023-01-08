@@ -4,3 +4,12 @@ terms_of_sum_remain verwendet, in dem nicht immer alle
 Elemente aus \(S\) stehen.
 
 Antwort: 
+Grundsätzlich ist es das Ziel, jede mögliche Partitionierung von n nur einmal zu
+erhalten. Wenn man einfach in jedem Aufruf der rekursiven Funktion alle passen-
+den Elemente aus S jeweils einmal hinzufügt, kann es passieren, dass zwei Zweige
+entstehen, in denen die gleiche Partitionierung verarbeitet wird, nur dass die
+Terme in einer anderen Reihenfolge hinzugefügt wurden. Wenn man stattdessen in
+den späteren rekursiven Aufrufen beispielsweise nur gestattet, höhere Terme hin-
+zuzufügen als den aktuellen, wird es für jede Partitionierung nur genau einen 
+Weg geben, sie zu erreichen und so können redundante Berechnungen sowie eine
+Elimination doppelter Lösungen am Ende wegfallen.
