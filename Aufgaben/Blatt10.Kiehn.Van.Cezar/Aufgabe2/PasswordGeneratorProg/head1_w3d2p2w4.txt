@@ -1,0 +1,1 @@
+number of possible passwords of structure w3d2p2w4: 1.59e+11

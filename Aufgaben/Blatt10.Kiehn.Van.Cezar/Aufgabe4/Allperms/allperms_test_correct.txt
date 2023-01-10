@@ -1,0 +1,8 @@
+Aufgabe:
+Begr"unden Sie in der Datei
+\texttt{allperms\_test\_correct.txt}, warum alle drei Bedingungen 1.-3.\
+zusammen ausreichen, um zu verifizieren, dass eine Liste
+\lstinline!all_perms_list! genau die Liste aller Permutationen von
+\lstinline!elems! ist.
+
+Antwort:

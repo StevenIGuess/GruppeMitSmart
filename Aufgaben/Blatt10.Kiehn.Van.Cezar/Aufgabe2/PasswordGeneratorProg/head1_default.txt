@@ -1,0 +1,1 @@
+number of possible passwords of structure w4p2d2w5p1d1w8: 7.44e+17
