@@ -6,3 +6,8 @@ zusammen ausreichen, um zu verifizieren, dass eine Liste
 \lstinline!elems! ist.
 
 Antwort:
+Grundsätzlich könnten Fehler entweder in der Weise bestehen, dass Permutationen
+fehlen, oder dass Elemente keine ermutation sind. Durch den dritten Test wird 
+zweiteres ausgeschlossen und durch die Kombination der ersten beiden Tests wird
+ersteres sichergestellt, da es nur n! Permutationen gibt, von denen jede vor-
+handen sein muss, nachdem Dopplungen ausgeschlossen worden.
