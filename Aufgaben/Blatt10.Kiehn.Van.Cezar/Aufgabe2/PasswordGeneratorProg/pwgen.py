@@ -21,16 +21,21 @@ def password_generate(word_dict,structure):
         sys.stderr.write("There is no word of the given length.\n")
         exit(1)
       length=len(word_dict[els[1]])
-      pw+=word_dict[els[1]][randint(0,length)]
+      pw+=word_dict[els[1]][randint(0,length-1)]
       choice_list.append(length)
     else:
-      pw+=randstring(string.digits if els[0]=="d" else string.punctuation, els[1])
-      choice_list.append((10 if els[0]=="d" else len(string.punctuation))**els[1])
+      pw+=randstring(string.digits if els[0]=="d" else string.punctuation,
+                    els[1])
+      choice_list.append((10 if els[0]=="d" else len(string.punctuation))**
+                                                 els[1])
   return (pw,choice_list)
 def parse_command_line(argv):
-  p=argparse.ArgumentParser(description=('Input the specifications of the desired password'))
-  p.add_argument('-s','--structure',type=str,default="w4p2d2w5p1d1w8",help='specify password structure, default is w4p2d2w5p1d1w8')
-  p.add_argument('-n','--number',type=int,default=1,help='specify number of password, default is 1')
+  p=argparse.ArgumentParser(description=
+                        ('Input the specifications of the desired password'))
+  p.add_argument('-s','--structure',type=str,default="w4p2d2w5p1d1w8",
+                 help='specify password structure, default is w4p2d2w5p1d1w8')
+  p.add_argument('-n','--number',type=int,default=1,
+                 help='specify number of password, default is 1')
   return p.parse_args(argv)
 
 def main():
